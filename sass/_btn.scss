@@ -1,0 +1,35 @@
+/*Boton*/
+.btna{
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    .abtn{
+        margin: 60px 45px;
+        padding: 20px 45px;
+        text-align: center;
+        color: #fff;
+        letter-spacing: 4px;
+        font-size: 18px;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.2s;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        -ms-transition: 0.2s;
+        -o-transition: 0.2s;
+            @media (min-width:1800px){
+            margin: 60px 45px;
+            padding: 25px 35px;
+            letter-spacing: 4px;
+            font-size: 22px;
+            }
+        &:hover{
+           background: #ca0000;
+            box-shadow: 0 0 40px #ca0000, 0 0 70px #ca0000, 0 0 110px #ca0000;
+            color: #fff;
+            transition-delay: 1s;
+        }
+    }
+}
